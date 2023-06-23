@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background: url(img/фон.jpg);
+  }
+  
+  section {
+    width: 360px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 100px;
+  
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.8);
+  
+    align-items: center;
+    border-radius: 2%;
+  }
+  
+  .Title {
+    padding-top: 119px;
+    text-align: center;
+  
+    font-family: "Calibri";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+  
+    color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .inputs {
+    height: 124px;
+    margin-top: 48px;
+    width: fit-content;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around
+  }
+  
+  .inputs--f {
+    height: 124px;
+    margin-top: 43px;
+  }
+  
+  .inputs .input--design {
+    width: 312px;
+    height: 48px;
+  
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .inputs .input--design input {
+    width: 312px;
+    height: 48px;
+  
+    padding-left: 4px;
+    box-sizing: border-box;
+  
+    background-color: rgba(0, 0, 0, 0);
+  
+    border: none;
+    outline: none;
+  }
+  
+
+  .button {
+    width: 312px;
+    height: 48px;
+    margin-top: 48px;
+    border: none;
+  
+    background: #f905b4;
+    border-radius: 5px;
+  
+    font-family: "Calibri";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    
+  
+    color: rgba(255, 255, 255, 0.9);
+    display: block;
+  }
+  
+   .line {
+    height: 1px;
+    width: 314px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 1px;
+    margin-top: 40px;
+  }
+
+
